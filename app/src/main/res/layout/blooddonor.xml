@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkRed">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="25dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="My information"
+        android:textColor="@color/White"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_marginStart="20dp"
+
+        android:background="@color/White"
+
+        android:text="DONATE"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/YourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/White"
+        android:text="Your Name"
+        android:layout_below="@+id/editText"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="367dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/YourName"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/YourAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/editText3"
+        android:textColor="@color/White"
+        android:text="Your Age"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/YourAge"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Enter your age"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/YourBloodGroup"
+        android:layout_width="162dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:layout_marginStart="20dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/White"
+        android:text="Your Blood Group"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/YourBloodGroup"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="Enter your blood type"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/YourAddress"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="1dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/White"
+        android:text="Your Address"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/YourAddress"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Enter your address"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_marginStart="265dp"
+        android:background="@color/White"
+        android:text="@android:string/cancel"
+        android:textColor="@color/DarkRed"
+        android:textStyle="bold" />
+
+</RelativeLayout>

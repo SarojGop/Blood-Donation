@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/thankyou">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_marginStart="16dp"
+
+
+                android:layout_marginEnd="85dp"
+                android:fontFamily="cursive"
+                android:text="Thank you for donating the blood."
+                android:textColor="#F44336"
+                android:textSize="16pt" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="85dp"
+
+                android:fontFamily="cursive"
+                android:text="&quot;You are somebody's type.&quot;"
+                android:textColor="#F44336"
+                android:textSize="16pt" />
+
+            <Button
+                android:id="@+id/HomeButton"
+                android:layout_width="76dp"
+                android:layout_height="74dp"
+                android:layout_below="@+id/textView3"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="75dp"
+                android:background="@null"
+                android:text="Go to Home"
+                android:textColor="@color/White" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

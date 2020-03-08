@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+
+    <EditText
+        android:id="@+id/reg_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_mobile"
+        android:ems="10"
+        android:hint="01/01/1900"
+        android:inputType="date"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/reg_dob"
+        android:imeOptions="actionDone"
+        android:hint="Email Address"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/DarkRed"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Create New Account"
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/textView"
+        android:hint="First Name"
+        android:singleLine="true" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:layout_below="@id/reg_first"
+
+        android:hint="Last Name"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/reg_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_last"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:singleLine="true" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+        android:layout_below="@id/reg_email"
+        android:hint="Re-enter Email Address"
+        android:singleLine="true" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/textInputEditText2"
+        android:hint="Password"
+        android:singleLine="true" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+        android:layout_below="@id/reg_password"
+        android:hint="Re-enter Password"
+        android:singleLine="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputEditText"
+        android:background="@color/White"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="15dp"
+        android:layout_marginStart="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@color/DarkRed"
+            android:layout_marginStart="250dp"
+            android:text="SIGN UP"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/homebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+
+            android:background="@color/DarkRed"
+            android:text="home"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+</RelativeLayout>
